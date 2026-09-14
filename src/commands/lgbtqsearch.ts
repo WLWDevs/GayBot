@@ -66,10 +66,7 @@ function normalizeTerm(term: string): string {
 async function searchLgbtqTerm(term: string): Promise<ApiResponse | null> {
     const normalizedTerm = normalizeTerm(term);
 
-    // Our own API — same repo as the dataset at github.com/Girls-Network/LGBT-API.
-    // If we ever stand up staging we'll probably want to env-var this, but for
-    // now it's a single production endpoint.
-    const apiBase = "https://api.girlsnetwork.dev";
+    const apiBase = "https://api.gaybot.site";
     // encodeURIComponent to keep weird characters from breaking the path —
     // the dataset uses hyphens and alphanumerics but defensive encoding
     // is cheap insurance.
@@ -175,7 +172,7 @@ export default {
                 .setDescription(termData.content)
                 .addFields(
                     { name: "Category", value: categoryDisplay, inline: true },
-                    { name: "Source", value: "girlsnetwork.dev", inline: true },
+                    { name: "Source", value: "api.gaybot.site", inline: true },
                 )
                 .setFooter({ text: `Searched term: ${searchTerm}` });
 
