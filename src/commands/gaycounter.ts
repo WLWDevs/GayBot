@@ -28,10 +28,9 @@ import {
 // Add yourself at your own risk, we don't judge... much.
 const gaynessOverrides = new Map<string, number>([
     ["652597508027187240", 1000], // @transbian
-    ["1464890289922641993", 69], // @doughmination.system
+    ["1464890289922641993", 69], // Clove's account
+    ["1025770042245251122", 69], // Clove's main
     ["908055723659898902", 420], // @lillybanana.7z
-    ["1110542429838397471", 200], // @msmoscar
-    ["527709099186716673", 200], // @theawesometaco
 ]);
 
 /* Deterministic pseudo-random gayness from the Discord ID.
@@ -65,7 +64,7 @@ function calculateGayness(userId: string): number {
     const seeding = Number(BigInt(userId) % 1000n);
 
     const decimal = Math.abs(Math.sin(seeding)) * 100;
-    const gayness = Number(decimal.toFixed(1));
+    const gayness = Number(100 - decimal.toFixed(1));
 
     return gayness;
 }
