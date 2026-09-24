@@ -64,7 +64,7 @@ function calculateGayness(userId: string): number {
     const seeding = Number(BigInt(userId) % 1000n);
 
     const decimal = Math.abs(Math.sin(seeding)) * 100;
-    const gayness = Number(100 - decimal.toFixed(1));
+    const gayness = 100 - Number(decimal.toFixed(1));
 
     return gayness;
 }
