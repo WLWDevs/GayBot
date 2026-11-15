@@ -16,10 +16,6 @@ indent_size = 4
 [*.{ts,tsx,js,mjs,cjs,json,jsonc}]
 indent_size = 4
 
-# ─── ESLint flat config uses 2-space (community convention) ───────────────────
-[eslint.config.{js,cjs,mjs}]
-indent_size = 2
-
 # ─── YAML must use spaces, and 2-space is the spec convention ─────────────────
 [*.{yml,yaml}]
 indent_size = 2

@@ -21,8 +21,7 @@ FROM oven/bun:1-alpine
 WORKDIR /app
 
 COPY package.json bun.lock* ./
-RUN bun install --frozen-lockfile --production && \
-    bun install -g @dotenvx/dotenvx
+RUN bun install --frozen-lockfile --production
 
 COPY --from=builder /app/src ./src
 
@@ -37,4 +36,4 @@ USER botuser
 
 EXPOSE 5050
 
-CMD ["dotenvx", "run", "--", "bun", "run", "start"]
+CMD ["bun", "run", "start"]

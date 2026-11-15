@@ -9,7 +9,6 @@ A Discord bot for LGBTQIA+ servers — keyword emoji reactions, identity profile
   <img src="https://img.shields.io/badge/Discord.js-5865F2?logo=discord&logoColor=white" alt="Discord.js" />
   <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" alt="Docker" />
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff" alt="ESLint" />
   <img src="https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=000" alt="Prettier" />
 </div>
 
@@ -35,17 +34,15 @@ cp .env.example .env   # then fill in DISCORD_TOKEN, etc.
 
 ### Available scripts
 
-| Script               | What it does                                            |
-| -------------------- | ------------------------------------------------------- |
-| `npm run dev`        | Run the bot under nodemon — restarts on TS file changes |
-| `npm run start`      | Run the bot once via ts-node (no rebuild needed)        |
-| `npm run build`      | Compile TypeScript into `dist/`                         |
-| `npm run lint`       | ESLint over `src/**/*.ts` and root JS, with `--fix`     |
-| `npm run format`     | Prettier write across all source/config/markdown        |
-| `npm run prettylint` | Lint then format. **Run this before every PR.**         |
-| `npm run test`       | Type-check the codebase via `tsc --noEmit`              |
+| Script           | What it does                                                                    |
+| ---------------- | ------------------------------------------------------------------------------- |
+| `npm run dev`    | Run the bot under nodemon — restarts on TS file changes                         |
+| `npm run start`  | Run the bot once via ts-node (no rebuild needed)                                |
+| `npm run build`  | Compile TypeScript into `dist/`                                                 |
+| `npm run format` | Prettier write across all source/config/markdown. **Run this before every PR.** |
+| `npm run test`   | Type-check the codebase via `tsc --noEmit`                                      |
 
-CI runs `lint`, `prettier --check`, and `test` against every PR — local `prettylint && test` exiting clean is a good signal CI will be green.
+CI runs `prettier --check` and `test` against every PR — local `format && test` exiting clean is a good signal CI will be green.
 
 ### Project layout
 
@@ -63,7 +60,7 @@ src/
 
 ## Tech Stack
 
-Discord.js v14, TypeScript, Node 20, Docker (deployment), ESLint v9 + typescript-eslint (linting), Prettier (formatting).
+Discord.js v14, TypeScript, Node 20, Docker (deployment), Prettier (formatting).
 
 ## Contributors
 

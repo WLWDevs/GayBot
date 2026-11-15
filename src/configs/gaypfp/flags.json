@@ -1,0 +1,249 @@
+{
+    "abrosexual": {
+        "label": "Abrosexual",
+        "aliases": [],
+        "colours": ["#75ca91", "#b3e4c7", "#ffffff", "#e695b5", "#d9446c"]
+    },
+    "agender": {
+        "label": "Agender",
+        "aliases": [],
+        "colours": [
+            "#000000",
+            "#bababa",
+            "#ffffff",
+            "#b9f484",
+            "#ffffff",
+            "#bababa",
+            "#000000"
+        ]
+    },
+    "aroace": {
+        "label": "Aroace",
+        "aliases": ["aro ace", "aroaceflux"],
+        "colours": ["#e28c00", "#eccd00", "#ffffff", "#62aedc", "#203856"]
+    },
+    "aromantic": {
+        "label": "Aromantic",
+        "aliases": ["aro"],
+        "colours": ["#3aa63f", "#a8d47a", "#ffffff", "#aaaaaa", "#000000"]
+    },
+    "asexual": {
+        "label": "Asexual",
+        "aliases": ["ace"],
+        "colours": ["#000000", "#a3a3a3", "#ffffff", "#800080"]
+    },
+    "bigender": {
+        "label": "Bigender",
+        "aliases": [],
+        "colours": ["#ee79ac", "#fdf44c", "#ffffff", "#af6dbf", "#719fe4"]
+    },
+    "bisexual": {
+        "label": "Bisexual",
+        "aliases": ["bi"],
+        "colours": ["#d9006f", "#744d98", "#0033ab"]
+    },
+    "demiboy": {
+        "label": "Demiboy",
+        "aliases": [],
+        "colours": [
+            "#7f7f7f",
+            "#c3c3c3",
+            "#99d9ea",
+            "#ffffff",
+            "#99d9ea",
+            "#c3c3c3",
+            "#7f7f7f"
+        ]
+    },
+    "demigender": {
+        "label": "Demigender",
+        "aliases": [],
+        "colours": [
+            "#7f7f7f",
+            "#c3c3c3",
+            "#faff74",
+            "#ffffff",
+            "#faff74",
+            "#c3c3c3",
+            "#7f7f7f"
+        ]
+    },
+    "demigirl": {
+        "label": "Demigirl",
+        "aliases": [],
+        "colours": [
+            "#7f7f7f",
+            "#c3c3c3",
+            "#ffaec9",
+            "#ffffff",
+            "#ffaec9",
+            "#c3c3c3",
+            "#7f7f7f"
+        ]
+    },
+    "genderfluid": {
+        "label": "Genderfluid",
+        "aliases": ["fluid"],
+        "colours": ["#f376a0", "#ffffff", "#ad4cbf", "#000000", "#3f47b6"]
+    },
+    "genderflux": {
+        "label": "Genderflux",
+        "aliases": [],
+        "colours": [
+            "#f47694",
+            "#f2a2b9",
+            "#cecece",
+            "#7ce0f7",
+            "#3ecdf9",
+            "#fff48d"
+        ]
+    },
+    "genderqueer": {
+        "label": "Genderqueer",
+        "aliases": [],
+        "colours": ["#b67fdd", "#ffffff", "#49821e"]
+    },
+    "grayromantic": {
+        "label": "Grayromantic",
+        "aliases": [],
+        "colours": ["#000000", "#b2b2b2", "#ffffff", "#2da038", "#063609"]
+    },
+    "graysexual": {
+        "label": "Graysexual",
+        "aliases": [],
+        "colours": ["#740194", "#aeb1aa", "#ffffff", "#aeb1aa", "#740194"]
+    },
+    "lesbian": {
+        "label": "Lesbian",
+        "aliases": ["wlw", "sapphic"],
+        "colours": ["#d62900", "#ff9b55", "#ffffff", "#d462a5", "#a50062"]
+    },
+    "mlm": {
+        "label": "MLM",
+        "aliases": ["gay", "achillean", "gay men", "vincian"],
+        "colours": [
+            "#078d70",
+            "#26ceaa",
+            "#98e8c1",
+            "#f1efff",
+            "#7bade2",
+            "#5049cc",
+            "#3d1a78"
+        ]
+    },
+    "mlm_old": {
+        "label": "MLM (older)",
+        "aliases": ["gay"],
+        "colours": [
+            "#0b7c6a",
+            "#42a4a5",
+            "#5cc8d2",
+            "#f1eeff",
+            "#7bade2",
+            "#1483cb",
+            "#073370"
+        ]
+    },
+    "nonbinary": {
+        "label": "Nonbinary",
+        "aliases": ["enby", "nb"],
+        "colours": ["#fff433", "#ffffff", "#9b59d0", "#000000"]
+    },
+    "omnisexual": {
+        "label": "Omnisexual",
+        "aliases": [],
+        "colours": ["#ff9ccd", "#ff53bd", "#270046", "#675ffe", "#8ca7ff"]
+    },
+    "pansexual": {
+        "label": "Pansexual",
+        "aliases": ["pan"],
+        "colours": ["#ff148c", "#ffda00", "#05aeff"]
+    },
+    "plural": {
+        "label": "Plural",
+        "aliases": ["system", "did", "osdd"],
+        "colours": ["#31c69e", "#347dde", "#6b3fbd", "#000000"]
+    },
+    "poc": {
+        "label": "POC",
+        "aliases": ["progress", "inclusive", "black", "brown"],
+        "colours": [
+            "#000000",
+            "#654321",
+            "#e70000",
+            "#ff8c00",
+            "#ffef00",
+            "#00811f",
+            "#0044ff",
+            "#760089"
+        ]
+    },
+    "polyamorous": {
+        "label": "Polyamorous",
+        "aliases": ["poly"],
+        "colours": ["#0000ff", "#ff0000", "#000000"]
+    },
+    "polysexual": {
+        "label": "Polysexual",
+        "aliases": [],
+        "colours": ["#f61cb9", "#07d569", "#1c92f6"]
+    },
+    "pride": {
+        "label": "Pride",
+        "aliases": ["rainbow", "lgbt", "lgbtq", "gay pride"],
+        "colours": [
+            "#e70000",
+            "#ff8c00",
+            "#ffef00",
+            "#00811f",
+            "#0044ff",
+            "#760089"
+        ]
+    },
+    "queer": {
+        "label": "Queer",
+        "aliases": [],
+        "colours": [
+            "#000000",
+            "#99d9ea",
+            "#00a2e8",
+            "#b5e61d",
+            "#ffffff",
+            "#ffc90e",
+            "#fd6666",
+            "#ffaec9",
+            "#000000"
+        ]
+    },
+    "transfeminine": {
+        "label": "Transfeminine",
+        "aliases": [],
+        "colours": [
+            "#74deff",
+            "#ffe1ed",
+            "#ffb5d6",
+            "#fe8cbf",
+            "#ffb5d6",
+            "#ffe1ed",
+            "#74deff"
+        ]
+    },
+    "transgender": {
+        "label": "Transgender",
+        "aliases": ["trans"],
+        "colours": ["#5bcffa", "#f5abb9", "#ffffff", "#f5abb9", "#5bcffa"]
+    },
+    "transmasculine": {
+        "label": "Transmasculine",
+        "aliases": [],
+        "colours": [
+            "#f283b4",
+            "#c2e9f2",
+            "#91e0f2",
+            "#6fd4f2",
+            "#91e0f2",
+            "#c2e9f2",
+            "#f283b4"
+        ]
+    }
+}
