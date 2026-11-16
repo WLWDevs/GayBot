@@ -9,7 +9,7 @@ import {
     EmbedBuilder,
     ApplicationCommandOptionType,
 } from "discord.js";
-import kissGifs from "../../configs/yuri/kiss.json";
+import kissGifs from "../../configs/yuri/kiss.json" with {type: "json"};
 
 // One of three yuri-flavoured commands (kiss/hug/boop). They all share the
 // top-level /yuri name, so commandHandler.ts merges them into a single

@@ -22,7 +22,7 @@ import {
     writePkSystemFile,
     ReactionData,
 } from "./dataManager";
-import emojiConfigData from "../configs/emoji-config.json";
+import emojiConfigData from "../configs/emoji-config.json" with {type: "json"};
 
 // Re-exported so callers don't have to know that the type lives in dataManager.
 // Same pattern as identityManager — this file is the public surface for

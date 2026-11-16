@@ -15,14 +15,12 @@ import {
     MessageFlags,
 } from "discord.js";
 import { loadImage } from "@napi-rs/canvas";
-import flagConfig from "../configs/gaypfp/flags.json";
+import flagConfig from "../configs/gaypfp/flags.json" with {type: "json"};
 import {
     renderPride,
     type Cutout,
     type Rendered,
 } from "../utils/prideRenderer";
-
-// /gaypfp — ported from the Sandrone bot's /pride. Flags live in configs/gaypfp/flags.json.
 
 interface FlagEntry {
     label: string;

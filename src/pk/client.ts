@@ -28,7 +28,7 @@ const API_BASE = "https://api.pluralkit.me/v2";
  * not just a nicety.
  */
 export const PK_USER_AGENT =
-    "GayBot (https://github.com/Girls-Network/gaybot-v2)";
+    "GayBot (https://github.com/WLWDevs/GayBot)";
 
 /**
  * Thin Error subclass so callers can distinguish "PK said no" from

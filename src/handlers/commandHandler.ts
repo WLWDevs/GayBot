@@ -5,8 +5,8 @@
  */
 
 import { Collection, REST, Routes } from "discord.js";
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { log, logError } from "../utils/logger";
 import chalk from "chalk";

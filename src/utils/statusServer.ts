@@ -4,9 +4,9 @@
  * See LICENCE in the project root for full licence information.
  */
 
-import * as http from "http";
-import * as fs from "fs";
-import * as path from "path";
+import * as http from "node:http";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import { ShardingManager } from "discord.js";
 import { log, logError } from "./logger";

@@ -10,7 +10,7 @@ import {
     ChatInputCommandInteraction,
     EmbedBuilder,
 } from "discord.js";
-import responses from "../configs/8ball.json";
+import responses from "../configs/8ball.json" with {type: "json"};
 
 // /8ball — ported from the Sandrone bot. Answers live in configs/8ball.json.
 

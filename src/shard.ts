@@ -14,7 +14,7 @@
 // and the manager is the only place with visibility into all of them.
 
 import { ShardingManager } from "discord.js";
-import * as path from "path";
+import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import chalk from "chalk";
 import { log, logError, logBoot, asciiArt } from "./utils/logger";

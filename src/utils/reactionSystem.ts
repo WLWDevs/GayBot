@@ -18,7 +18,7 @@
 // the event handler.
 
 import { Message, PartialMessage } from "discord.js";
-import emojiConfigData from "../configs/emoji-config.json";
+import emojiConfigData from "../configs/emoji-config.json" with {type: "json"};
 import { isReactionAllowed } from "./reactionPreferences";
 import chalk from "chalk";
 

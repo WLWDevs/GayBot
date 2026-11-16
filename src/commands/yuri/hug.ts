@@ -9,7 +9,7 @@ import {
     EmbedBuilder,
     ApplicationCommandOptionType,
 } from "discord.js";
-import hugGifs from "../../configs/yuri/hug.json";
+import hugGifs from "../../configs/yuri/hug.json" with {type: "json"};
 
 // Sibling of kiss.ts and boop.ts — see kiss.ts for the full rundown of how
 // these three files end up registered as one /yuri command with three subs.

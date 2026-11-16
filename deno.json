@@ -1,0 +1,16 @@
+{
+    "description": "A Queer Discord Bot with fun functions",
+    "nodeModulesDir": "auto",
+    "version": "3.2.0",
+    "tasks": {
+        "start": "deno run --sloppy-imports --watch --allow-net --allow-run --allow-ffi --allow-sys --allow-env --allow-read --allow-write=./data,./logs --env-file=.env src/shard.ts",
+        "format": "prettier --write \"**/*.{ts,js,mjs,cjs,json,md}\""
+    },
+    "imports": {
+        "prettier": "npm:prettier@3.10.1",
+        "chalk": "npm:chalk@6.0.1",
+        "discord.js": "npm:discord.js@14.28.1",
+        "gifenc": "npm:gifenc@1.0.3/dist/gifenc.esm.js",
+        "@napi-rs/canvas": "npm:@napi-rs/canvas@1.1.1"
+    }
+}

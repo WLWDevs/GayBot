@@ -10,12 +10,12 @@ import {
     Collection,
     ActivityType,
 } from "discord.js";
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { loadCommands, deployCommands } from "./handlers/commandHandler";
 import { processReactionQueue } from "./utils/reactionSystem";
-import { logBoot, asciiArt, log } from "./utils/logger";
+import { log } from "./utils/logger";
 import { startBannerRotater } from "./utils/bannerRotator";
 import chalk from "chalk";
 import { ExtendedClient } from "./utils/ExtendedClient";
@@ -104,15 +104,10 @@ client.once("clientReady", () => {
 setInterval(() => processReactionQueue(client.reactionQueue), 1000);
 
 async function start() {
-    // Pretty banner + boot log only once, not five times over. If we're
-    // unsharded SHARD_ID is unset, which we also treat as "go ahead".
+    // Unsharded runs leave SHARD_ID unset, which counts as shard 0 below.
     const shardId = process.env.SHARD_ID
         ? parseInt(process.env.SHARD_ID)
         : null;
-    if (shardId === null || shardId === 0) {
-        asciiArt();
-        logBoot();
-    }
 
     await loadCommands(client);
     await loadEvents();

@@ -4,8 +4,8 @@
  * See LICENCE in the project root for full licence information.
  */
 
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import chalk from "chalk";
 
@@ -14,7 +14,7 @@ import chalk from "chalk";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const LOG_DIR = path.join(process.cwd(), ".logs");
+const LOG_DIR = path.join(process.cwd(), "logs");
 
 // Make sure .logs/ exists up-front — appendFileSync will throw otherwise
 // and we'd lose the first error we tried to record.
@@ -29,8 +29,7 @@ if (!fs.existsSync(LOG_DIR)) {
 // shouldn't stop the bot booting, so we just fall through to "unknown".
 function getBotVersion(): string {
     const candidates = [
-        path.join(__dirname, "..", "..", "package.json"), // dist/utils/logger.js
-        path.join(__dirname, "..", "..", "..", "package.json"), // src/utils/logger.ts (ts-node)
+        path.join(__dirname, "..", "..", "deno.json"),
     ];
     for (const p of candidates) {
         try {

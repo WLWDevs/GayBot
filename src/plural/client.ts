@@ -23,7 +23,7 @@ const API_BASE = "https://api.plural.gg";
 // identifies us just fine), but keeping one UA across every outbound call
 // makes it easier for third-party devs to grep their logs for us.
 export const PLURAL_USER_AGENT =
-    "GayBot (https://github.com/Girls-Network/gaybot-v2)";
+    "GayBot (https://github.com/WLWDevs/GayBot)";
 
 export class PluralApiError extends Error {
     constructor(

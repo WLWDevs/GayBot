@@ -9,7 +9,7 @@ import {
     EmbedBuilder,
     ApplicationCommandOptionType,
 } from "discord.js";
-import boopGifs from "../../configs/yuri/boop.json";
+import boopGifs from "../../configs/yuri/boop.json" with {type: "json"};
 
 // Sibling of kiss.ts and hug.ts — see kiss.ts for the merge mechanics.
 export default {

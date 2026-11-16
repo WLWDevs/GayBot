@@ -17,8 +17,8 @@
 // serialises message handling per-shard, so the lack of file locking
 // is fine for now. If we ever go multi-process per host, revisit.
 
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 
 // ─── Paths ────────────────────────────────────────────────────────────────────
 
