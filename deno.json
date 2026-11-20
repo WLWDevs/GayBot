@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json",
     "description": "A Queer Discord Bot with fun functions",
     "nodeModulesDir": "auto",
     "version": "3.2.0",
@@ -6,6 +7,7 @@
         "start": "deno run --sloppy-imports --watch --allow-net --allow-run --allow-ffi --allow-sys --allow-env --allow-read --allow-write=./data,./logs --env-file=.env src/shard.ts",
         "format": "prettier --write \"**/*.{ts,js,mjs,cjs,json,md}\""
     },
+    "minimumDependencyAge": 0,
     "imports": {
         "prettier": "npm:prettier@3.10.1",
         "chalk": "npm:chalk@6.0.1",
